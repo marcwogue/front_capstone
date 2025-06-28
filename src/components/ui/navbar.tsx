@@ -32,18 +32,28 @@ const Navbar: React.FC = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/" className="text-base-content">
+                about
+              </NavLink>
+            </li>
+            <li>
               <NavLink to="/menu" className="text-base-content">
                 Menu
               </NavLink>
             </li>
             <li>
               <NavLink to="/reserve" className="text-base-content">
-                Reserve
+                Reservation
               </NavLink>
             </li>
             <li>
               <NavLink to="/contact" className="text-base-content">
-                Contact
+                order online
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" className="text-base-content">
+                login
               </NavLink>
             </li>
           </ul>
