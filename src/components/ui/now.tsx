@@ -1,5 +1,6 @@
 import React from "react";
 import { useCart } from "../../context/cardContext";
+import { NavLink } from "react-router-dom";
 
 export interface Dish {
     id: number;
@@ -102,6 +103,9 @@ const OrderNow: React.FC = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="place-content-center text-center p-20">
+        <NavLink to="/cart" className={`btn btn-primary px-12 rounded-4xl`} >see cart</NavLink>
         </div>
       </section>
     </>

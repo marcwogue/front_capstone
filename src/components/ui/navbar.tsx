@@ -32,28 +32,18 @@ const Navbar: React.FC = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/" className="text-base-content">
-                about
-              </NavLink>
-            </li>
-            <li>
               <NavLink to="/menu" className="text-base-content">
                 Menu
               </NavLink>
             </li>
             <li>
-              <NavLink to="/reserve" className="text-base-content">
-                Reservation
+              <NavLink to="/register" className="text-base-content">
+                Reserve
               </NavLink>
             </li>
             <li>
               <NavLink to="/contact" className="text-base-content">
-                order online
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact" className="text-base-content">
-                login
+                Contact
               </NavLink>
             </li>
           </ul>
@@ -89,7 +79,7 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <NavLink
-              to="/reserve"
+              to="/register"
               className={({ isActive }) =>
                 isActive ? "text-primary font-semibold" : "text-base-content"
               }

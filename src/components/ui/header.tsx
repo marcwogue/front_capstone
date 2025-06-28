@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
-    <header className=" py-10 md:py-32 text-xl md:text-3xl bg-primary shadow p-4">
-      <div className="flex items-start justify-between">
+    <header className=" grid grid-cols-2 gap-3 text-xl md:text-3xl bg-primary shadow p-4">
+     <div className="py-10 md:py-32  col-span-1">
+            <div className="flex items-start justify-between">
 
         {/* Center: Logo + Text */}
         <div className="flex flex-col items-start md:items-center text-center max-w-md mx-auto">
@@ -20,8 +21,10 @@ const Header: React.FC = () => {
           </NavLink>
         </div>
 
-        
-      </div>
+
+        </div> 
+      </div> 
+      <img src="mains.jpg" alt="little" className="rounded-3xl " />
     </header>
   );
 };
