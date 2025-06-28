@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           <p className="mt-2 text-left md:text-center text-base text-base-content">
             We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
           </p>
-          <NavLink to="/reserve" className="btn btn-secondary mt-3">
+          <NavLink to="/register" className="btn btn-secondary mt-3">
             Reserve a table
           </NavLink>
         </div>

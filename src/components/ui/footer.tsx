@@ -4,7 +4,7 @@ import logo from '../../assets/logo.jpg'; // Réutilisez le logo
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer p-10 bg-base-300 text-base-content mt-auto">
+    <footer className="footer p-10 bg-succes text-base-content mt-auto">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo and Copyright */}
         <aside className="col-span-full md:col-span-1 flex flex-col items-start md:items-center">
@@ -17,11 +17,11 @@ const Footer: React.FC = () => {
         <nav className="flex flex-col gap-2">
           <header className="footer-title">Doormat Navigation</header>
           <NavLink to="/" className="link link-hover">Home</NavLink>
-          <NavLink to="/about" className="link link-hover">About</NavLink>
+          <NavLink to="/contact" className="link link-hover">About</NavLink>
           <NavLink to="/menu" className="link link-hover">Menu</NavLink>
-          <NavLink to="/reserve" className="link link-hover">Reservations</NavLink>
-          <NavLink to="/order-online" className="link link-hover">Order Online</NavLink>
-          <NavLink to="/login" className="link link-hover">Login</NavLink>
+          <NavLink to="/register" className="link link-hover">Reservations</NavLink>
+          <NavLink to="/menu" className="link link-hover">Order Online</NavLink>
+          <NavLink to="/contact" className="link link-hover">Login</NavLink>
         </nav>
 
         {/* Contact */}

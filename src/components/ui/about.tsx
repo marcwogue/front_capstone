@@ -5,7 +5,7 @@ import aboutImg2 from '../../assets/specials.jpg'; // Image supérieure et gauch
 
 const AboutSection: React.FC = () => {
   return (
-    <section className="bg-primary py-16 text-base-content">
+    <section className="bg-primary py-16 text-base-content" >
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left content - Text */}
         <div className="flex flex-col items-start">
@@ -33,7 +33,7 @@ const AboutSection: React.FC = () => {
           <img
             src={aboutImg2}
             alt="Chefs Mario and Adrian"
-            className="absolute bottom-0 right-0 w-3/4 h-3/4 object-cover rounded-box shadow-xl"
+            className="absolute bottom-3 right-1 w-3/4 h-3/4 object-cover rounded-box shadow-xl "
             style={{ transform: 'translate(10%, 10%)' }} // Ajuste le chevauchement
           />
         </div>
