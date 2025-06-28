@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 // Définition de l'interface pour un plat
@@ -78,7 +78,7 @@ const Special: React.FC = () => {
 
                                 {/* Order a delivery link/button */}
                                 <div className="flex items-center text-sm font-semibold text-gray-800 cursor-pointer hover:text-primary transition-colors">
-                                    Order a delivery
+                                    <Link to="menu" >Order a delivery
                                     {/* SVG for the right arrow icon */}
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -90,6 +90,7 @@ const Special: React.FC = () => {
                                     >
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                                     </svg>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

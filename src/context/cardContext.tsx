@@ -5,6 +5,7 @@ export interface Dish {
   name: string;
   desc: string;
   price: number;
+  img : string;
 }
 
 // Ce qu'on mettra dans le context
