@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 
-// Définition de l'interface pour un plat
 interface Dish {
     id: number;
     name: string;
@@ -11,7 +10,6 @@ interface Dish {
     image: string;
 }
 
-// Données des plats pour la section "Specials"
 const specialDishes: Dish[] = [
     {
         id: 1,
